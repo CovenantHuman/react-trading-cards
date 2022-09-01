@@ -1,0 +1,13 @@
+'use strict';
+
+function Homepage() {
+  return (
+    <React.Fragment>
+      <h2>We hope you have a nice time!</h2>
+      <a href="/cards">Trading cards</a>
+      <img src="/static/img/balloonicorn.jpg" id="homepage-image"></img>
+    </React.Fragment>
+  );
+}
+
+ReactDOM.render(<Homepage />, document.querySelector('#app'));
