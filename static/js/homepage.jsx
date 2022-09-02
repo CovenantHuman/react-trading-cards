@@ -4,7 +4,8 @@ function Homepage() {
   return (
     <React.Fragment>
       <h2>We hope you have a nice time!</h2>
-      <a href="/cards">Trading cards</a>
+      <a href="/cards">Trading cards</a><br/>
+      <a href="/about">About Us</a>
       <img src="/static/img/balloonicorn.jpg" id="homepage-image"></img>
     </React.Fragment>
   );
